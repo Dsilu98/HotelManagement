@@ -1,0 +1,5 @@
+package com.capgemini.rating.controllers;
+
+public class UserController {
+
+}

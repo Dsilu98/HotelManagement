@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=HotelService/C:\/Users\/Debakanta\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/3.3.0\/spring-data-jpa-3.3.0.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/3.3.0=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1715940857000"/>
+    <typeInfo handle="=HotelService/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.capgemini.HotelService.services{HotelService.java[HotelService" modifiers="513" timestamp="1717699456132"/>
+    <typeInfo handle="=RatingService/H:\/sts-4.21.0.RELEASE\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\/jre\/lib\/jrt-fs.jar`java.base=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/17\/docs\/api\/=/=/maven.pomderived=/true=/&lt;java.lang(RuntimeException.class[RuntimeException" modifiers="33" timestamp="1704120712972"/>
+    <typeInfo handle="=RatingService/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.capgemini.rating.services{RatingService.java[RatingService" modifiers="513" timestamp="1718117073903"/>
+</typeInfoHistroy>

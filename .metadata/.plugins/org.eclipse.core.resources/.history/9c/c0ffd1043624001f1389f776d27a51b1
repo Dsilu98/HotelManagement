@@ -1,0 +1,5 @@
+package com.capgemini.HotelService.payload;
+
+public class ApiResponce {
+
+}

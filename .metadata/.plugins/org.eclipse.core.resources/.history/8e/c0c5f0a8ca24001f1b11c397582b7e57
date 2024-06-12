@@ -1,0 +1,44 @@
+package com.capgemini.rating.services.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+
+import com.capgemini.rating.Repositories.RatingRepository;
+import com.capgemini.rating.entities.Rating;
+import com.capgemini.rating.exceptions.ResourceNotFoundExceptions;
+import com.capgemini.rating.services.RatingService;
+
+public class RatingServiceImpl implements RatingService {
+@Autowired
+private RatingService service;
+	
+@Autowired
+private RatingRepository repository;
+
+	@Override
+	public Rating createRating(Rating rating) {
+		return null;
+	}
+
+	@Override
+	public Rating updateRating(Rating ratingDetails) {
+		return null;
+	}
+
+	@Override
+	public Rating getRatingById(String id) {
+		return null;
+	}
+
+	@Override
+	public List<Rating> getRatings() {
+		return null;
+	}
+	
+	public ResponseEntity<List<Rating>> getAllRatingsByUserId(String id){
+		return ResponseEntity.ok(service.getRatingByUserId(id));
+	}
+	
+}

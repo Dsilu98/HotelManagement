@@ -1,0 +1,17 @@
+
+l
+java:S1128"8Remove this unused import 'java.util.function.Function'.b bf0d611a9fcebbbe800d4dc4196aa654h
+y
+java:S1128	"ERemove this unused import 'org.springframework.data.domain.Pageable'.b a995f8500c9dbf3b8e69965ebd7ea269h
+u
+java:S1128
+"ARemove this unused import 'org.springframework.data.domain.Sort'.b 09cc96446af512a5bd800fe522a47d51h
+x
+java:S1128"DRemove this unused import 'org.springframework.data.domain.Example'.b 78d00738267ecea2fcbb73e2e9993766h
+õ
+java:S1128"gRemove this unused import 'org.springframework.data.repository.query.FluentQuery.FetchableFluentQuery'.b e8c3e61d0ae7846f7d515fac3cf6fda2h
+ç	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b 81edeaf2496d8d61c552db63df9ae3a0h
+u
+java:S1128"ARemove this unused import 'org.springframework.data.domain.Page'.b 1ba1b3ffa8e498449d22535d2b4352fch
+c
+java:S1128"/Remove this unused import 'java.util.Optional'.b 36b2b47c45feb274daab2613f5282eabh

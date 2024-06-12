@@ -1,0 +1,30 @@
+package com.capgemini.rating.services.impl;
+
+import java.util.List;
+
+import com.capgemini.rating.entities.Rating;
+import com.capgemini.rating.services.RatingService;
+
+public class RatingServiceImpl implements RatingService {
+
+	@Override
+	public Rating createRating(Rating rating) {
+		return null;
+	}
+
+	@Override
+	public Rating updateRating(Rating ratingDetails) {
+		return null;
+	}
+
+	@Override
+	public Rating getRatingById(String id) {
+		return null;
+	}
+
+	@Override
+	public List<Rating> getRatings() {
+		return null;
+	}
+	
+}

@@ -1,0 +1,5 @@
+package com.capgemini.HotelService.exceptions;
+
+public class GlobalExceptions {
+
+}

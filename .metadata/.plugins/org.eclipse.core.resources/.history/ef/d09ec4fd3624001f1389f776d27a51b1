@@ -1,0 +1,34 @@
+package com.capgemini.HotelService.services.impl;
+
+import java.util.List;
+
+import com.capgemini.HotelService.entity.Hotel;
+import com.capgemini.HotelService.services.HotelService;
+
+public class HotelServiceImpl implements HotelService {
+
+	@Override
+	public Hotel createHotel(Hotel hotel) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Hotel updatHotel(String id, Hotel hotelDetails) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Hotel getHotelById(String id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Hotel> getAllHotel() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

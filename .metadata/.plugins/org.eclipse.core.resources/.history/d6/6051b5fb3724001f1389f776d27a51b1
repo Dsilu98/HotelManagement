@@ -1,0 +1,5 @@
+package com.capgemini.HotelService.controllers;
+
+public class HotelController {
+
+}

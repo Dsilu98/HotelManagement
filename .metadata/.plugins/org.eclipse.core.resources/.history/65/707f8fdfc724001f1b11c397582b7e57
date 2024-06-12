@@ -1,0 +1,5 @@
+package com.capgemini.rating.exceptions;
+
+public class GlobalExceptionHandeller {
+
+}

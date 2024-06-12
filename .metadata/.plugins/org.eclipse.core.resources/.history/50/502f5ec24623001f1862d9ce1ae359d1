@@ -1,0 +1,5 @@
+package com.capgemini.user.service.entity;
+
+public class UserRepository {
+
+}

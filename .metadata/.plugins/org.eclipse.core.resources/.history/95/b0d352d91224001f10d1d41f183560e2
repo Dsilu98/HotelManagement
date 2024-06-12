@@ -1,0 +1,34 @@
+package com.capgemini.user.service.services.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.capgemini.user.service.entities.User;
+import com.capgemini.user.service.exceptions.ResourceNotFoundexception;
+import com.capgemini.user.service.repositories.UserRepository;
+import com.capgemini.user.service.services.UserService;
+
+@Service
+public class UserServiceImpl implements UserService{
+@Autowired
+private UserRepository repository;
+	
+	@Override
+	public User createUser(User user) {
+		return repository.save(user);
+	}
+
+	@Override
+	public List<User> getAllUser() {
+		return repository.findAll();
+	}
+
+	@Override
+	public User getUser(String userId) {
+		return repository.findById(userId).orElseThrow(()->new ResourceNotFoundexception("Resource not found with id"
+				+ " : "+userId));
+	}
+
+}

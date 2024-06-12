@@ -1,0 +1,5 @@
+package com.capgemini.user.service.entities;
+
+public class User {
+
+}

@@ -1,0 +1,24 @@
+package com.capgemini.HotelService.exceptions;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.HttpStatusCode;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+import com.capgemini.HotelService.payload.ApiResponce;
+
+@RestControllerAdvice
+public class GlobalExceptions {
+	
+	@ExceptionHandler(ResourceNotFoundException.class)
+	public ResponseEntity<ApiResponce> handleResourceNotFoundException(ResourceNotFoundException ex){
+		Map map = new HashMap<>();
+		String message = ex.getMessage();
+		ApiResponce responce = ApiResponce.builder().mesage(message).success(false).status(HttpStatus.NOT_FOUND).build();
+		return new ResponseEntity<ApiResponce>(responce,HttpStatus.NOT_FOUND);
+	}
+}

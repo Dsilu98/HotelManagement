@@ -1,0 +1,5 @@
+package com.capgemini.rating.entities;
+
+public class Rating {
+
+}

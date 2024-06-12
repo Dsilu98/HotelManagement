@@ -1,0 +1,7 @@
+package com.capgemini.rating.services.impl;
+
+import com.capgemini.rating.services.RatingService;
+
+public class RatingServiceImpl implements RatingService {
+	
+}

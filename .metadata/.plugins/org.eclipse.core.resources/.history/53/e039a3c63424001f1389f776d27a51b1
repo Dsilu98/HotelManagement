@@ -1,0 +1,5 @@
+package com.capgemini.HotelService.services;
+
+public interface HotelService {
+
+}

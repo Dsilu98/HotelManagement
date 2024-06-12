@@ -1,0 +1,5 @@
+package com.capgemini.user.service.exceptions;
+
+public class ResourceNotFoundexception {
+
+}
